@@ -1,0 +1,11 @@
+.stylesheet-container{
+    color:"orange";
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.primary{
+    color:red;
+}
+.secondary{
+    color:blue;
+}
