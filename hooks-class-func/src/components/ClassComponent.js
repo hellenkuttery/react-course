@@ -8,6 +8,14 @@ class ClassComponent extends React.Component{
         }
     }
 
+componenentDidMount()
+{
+    console.log("componenetDidMount: componenet worked when the page conponent rendered")
+}
+
+componentDidUpdate(){
+    console.log("componenDidUpdate: component works when a changes happened")
+}
 
 increase(){
     this.setState({counter:this.state.counter+1})
